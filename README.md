@@ -19,7 +19,6 @@ A FastAPI-based project that uses both rule-based logic and machine learning to 
 **Method:** `POST`  
 **Request Body:**
 
-```json
 '{
   "key": "your-api-key",
   "text": "Looking for SEO services for my company",
