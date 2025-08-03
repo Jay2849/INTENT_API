@@ -26,7 +26,7 @@ A FastAPI-based project that uses both rule-based logic and machine learning to 
   "guid": "123-abc"
 }
 
-Response:
+**Response:**
 
 {
   "intent": "SEOLead",
