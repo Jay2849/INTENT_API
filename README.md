@@ -19,6 +19,22 @@ A FastAPI-based project that uses both rule-based logic and machine learning to 
 **Method:** `POST`  
 **Request Body:**
 
+```json
+'{
+  "key": "your-api-key",
+  "text": "Looking for SEO services for my company",
+  "guid": "123-abc"
+}'
+
+**Response:**
+
+'{
+  "intent": "SEOLead",
+  "text": "Looking for SEO services for my company",
+  "guid": "123-abc"
+}'
+
+
 ### **🛠️ Setup Instructions**
 1. Clone the Repository
 git clone https://github.com/Jay2849/INTENT_API.git
