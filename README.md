@@ -19,19 +19,19 @@ A FastAPI-based project that uses both rule-based logic and machine learning to 
 **Method:** `POST`  
 **Request Body:**
 
-'{
+<pre> '''{
   "key": "your-api-key",
   "text": "Looking for SEO services for my company",
   "guid": "123-abc"
-}'
+}''' </pre>
 
 **Response:**
 
-'{
+<pre> '''{
   "intent": "SEOLead",
   "text": "Looking for SEO services for my company",
   "guid": "123-abc"
-}'
+}''' </pre>
 
 
 ### **🛠️ Setup Instructions**
