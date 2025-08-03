@@ -35,7 +35,7 @@ Response:
 }
 
 
-**🛠️ Setup Instructions**
+### **🛠️ Setup Instructions**
 1. Clone the Repository
 git clone https://github.com/Jay2849/INTENT_API.git
 cd INTENT_API
@@ -50,7 +50,7 @@ python train_model.py
 uvicorn main:app --reload
 
 
-**🔑 API Key Setup**
+### **🔑 API Key Setup**
 Create a file at data/keys.json:
 {
   "valid_keys": ["your-api-key"]
@@ -58,7 +58,7 @@ Create a file at data/keys.json:
 Use this key when sending requests to the API.
 
 
-**🧹 Text Preprocessing**
+### **🧹 Text Preprocessing**
 The system applies basic text cleaning before prediction:
 -Converts to lowercase
 -Removes special characters
@@ -68,11 +68,11 @@ Example:
 clean_text("Buy SEO services!!!")  # Output: "buy seo services"
 
 
-**🧠 Model Details**
+### **🧠 Model Details**
 -> Vectorizer: TfidfVectorizer with English stopwords
 -> Classifier: LogisticRegression
 -> Training: Uses filtered labeled dataset (SEOLead, NoLead, NotLead)
 
-**📄 License**
+### **📄 License**
 This project is open-source and free to use under the MIT License.
 Let me know if you'd like this as a downloadable `.md` file or if you want to add badges, contributors, or deployment instructions (e.g. Render, Heroku, Docker).
